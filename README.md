@@ -92,7 +92,7 @@ Start the server
  - dari pengalam saya beberapa cara untuk menguranginya adalah 
    - (1) dengan menerapkan Eager Loading pada masalah N+1 problem,
    - (2) untuk masalah pagination kita bisa batasi seperti kita query untuk menampilkan tetapi kita limit 100 dari data yang sesungguhnya 200 lalu kita paginate
-   - (3) kita bisa menampilkan semua data berdasarkan semua data tapi kita filer berdasarkan category, contoh diambil dari https://mariadb.com/kb/en/pagination-optimization/
+   - (3) kita bisa menampilkan semua data berdasarkan daya yang kita filer berdasarkan category, contoh diambil dari https://mariadb.com/kb/en/pagination-optimization/
    - (4) bisa menggunakan teknik yang namanya Lazy Loading. jadi ketika query pertama kita limit 10 nah ketika ada request lagi  kita ambil lagi 10 lalu kita respone
    - (5) kita bisa menggunakan technik caching dengan redis contohnya jadi ketika ada query get kita ambil datanya lalu kirim ke client dan juga redis, ketika ada user lain request ke query get kita bisa kembalikan data yang ada di redis. kasus ini untuk data yang sering di lihat contohnya book pada aplikasi ini.
    - (6) bisa menggunakan elastic search untuk mencari data lebih cepat tetapi kita bisa menggunakan Mysql sebagai cadangan data/ backup dari elastic search
