@@ -30,6 +30,18 @@ Install dependencies
   npm install
 ```
 
+Install Database And Make Seeder
+
+```bash
+  npx sequelize-cli db:drop drop database
+  
+  npx sequelize-cli db:create create database
+  
+  npx sequelize-cli db:migrate migration data
+  
+  npx sequelize-cli db:seed:all seeder
+```
+
 Start the server
 
 ```bash
