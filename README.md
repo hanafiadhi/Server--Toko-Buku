@@ -15,13 +15,13 @@ Aplikasi ini adalah sample dari implementasu tekologi Restful API, caching,clean
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/hanafiadhi/Server--Toko-Buku.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd Server--Toko-Buku
 ```
 
 Install dependencies
@@ -49,7 +49,7 @@ Install Database And Make Seeder
 Start the server
 
 ```bash
-  npm run start
+  npm run start / npm run dev
 ```
 
 
