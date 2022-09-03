@@ -48,7 +48,7 @@ module.exports = {
             )
             //cari dulu idnya
             return res.status(200).json({
-                message: "pencarian berhasil",
+                message: "catgeoires was update",
                 data: findCategories
             })
         } catch (error) {
