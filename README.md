@@ -89,6 +89,8 @@ Start the server
 
 ### Bagaimana cara mengetahui kompleksitas sebuah query dan cara untuk menguranginya ?
  - untuk mengetahui sebuah kompleksitas sebuah query yaitu dengan mencoba menghitung berapa lama data itu tampil setelah di query,
+ - biasanya respon time tidak boleh dari 200ms atau 2 detik
+ - kita bisa mencoba melakukan stress test pada api kita dengan menggunakan tools seperti jmeter
  - dari pengalam saya beberapa cara untuk menguranginya adalah 
    - (1) dengan menerapkan Eager Loading pada masalah N+1 problem,
    - (2) untuk masalah pagination kita bisa batasi seperti kita query untuk menampilkan tetapi kita limit 100 dari data yang sesungguhnya 200 lalu kita paginate
