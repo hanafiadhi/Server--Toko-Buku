@@ -76,6 +76,8 @@ Start the server
 
 - Builder Pattern
   - Karena sing digunakan dan juga membantu saya untuk mengelola code agar tidak terlalu complex
+- singleton Pattern
+  - contohnya cacthing
 
 
 ## Pertanyaan
